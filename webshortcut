@@ -1,0 +1,9 @@
+::powershell -Command Invoke-WebRequest -Uri https://ICON_REPOSITORY URL -OutFile C:\Temp\ICON.ico   & ::Comment line back in if you have an icon you want to use
+
+echo [InternetShortcut] >"%userprofile%\Desktop\SITE_NAME.url"
+
+echo URL=https://URL_GOES_HERE >>"%userprofile%\OneDrive - shrynegroup.com\Desktop\Stiiizy_Connect.url"
+
+echo IconFile="C:\Temp\ICON.ico"  >>"%userprofile%\Desktop\SITE_NAME.url"
+
+echo IconIndex=0 >>"%userprofile%\Desktop\SITE_NAME.url"
